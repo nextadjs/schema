@@ -1,0 +1,21 @@
+{
+  "name": "@nextad/schema",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "Kai Miyamoto",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nextadjs/schema.git"
+  },
+  "homepage": "https://github.com/nextadjs/schema.git",
+  "peerDependencies": {
+    "zod": "^3.0.0",
+    "iab-adcom": "^0.2.8",
+    "iab-openrtb": "^0.4.3"
+  },
+  "devDependencies": {
+    "ts-to-zod": "^3.15.0"
+  }
+}
