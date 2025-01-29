@@ -95,8 +95,8 @@ export const supplyChainNodeSchema = z.object({
 });
 
 export const brandVersionSchema = z.object({
-  brand: z.string(),
-  version: z.string(),
+  brand: z.string().optional(),
+  version: z.array(z.string()).optional(),
 });
 
 export const segmentSchema = z.object({
